@@ -1,0 +1,184 @@
+<ahtml>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontak Kami - Dealer Resmi Honda Central Sakti Motor Solo">
+    <title>Kontak Kami - Central Sakti Motor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ff0000;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .contact-info div {
+            width: 48%;
+        }
+
+        .contact-info h2 {
+            color: #ff0000;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #d10000;
+        }
+
+        .map {
+            margin-top: 30px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Kontak Kami - Central Sakti Motor</h1>
+        <p>Dealer Resmi Honda Terpercaya di Solo</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="tampilanutama.html">Home</a>
+        <a href="tentangkami.html">Tentang Kami</a>
+        <a href="produk.html">Produk</a>
+        <a href="kontakkami.html">Kontak</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section id="contact">
+            <h2>Hubungi Kami</h2>
+            <p>Jika Anda memiliki pertanyaan atau membutuhkan informasi lebih lanjut, silakan hubungi kami melalui informasi di bawah ini:</p>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div>
+                    <h3>Informasi Kontak</h3>
+                    <ul>
+                        <li><strong>Telepon:</strong> 0856 4861 0638 EVAN HONDA </li>
+                        <li><strong>Email:</strong> <a href="mailto:info@centralsaktimotor.com">evandirda@gmail.com</a></li>
+                        <li><strong>Alamat:</strong> Jl. Kapten Piere Tandean No.77,Nusukan,Kecamatan Banjarsari, Kota Surakarta Jawa Tengah 57135</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Jam Operasional</h3>
+                    <ul>
+                        <li><strong>Senin - Jumat:</strong> 08:00 - 17:00</li>
+                        <li><strong>Sabtu:</strong> 08:00 - 15:00</li>
+                        <li><strong>Minggu:</strong> Tutup</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <h3>Formulir Kontak</h3>
+            <p>Isi formulir di bawah ini untuk mengirimkan pesan atau pertanyaan kepada kami:</p>
+            <div class="contact-form">
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nama Anda:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Anda:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Pesan Anda:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+
+            <!-- Location Map -->
+            <div class="map">
+                <h3>Lokasi Kami</h3>
+                <p>Temukan kami di peta berikut:</p>
+                <iframe width="100%" height="400" src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Jl.+Raya+Solo+No.+123,+Solo,+Jawa+Tengah" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Central Sakti Motor | Dealer Resmi Honda Solo</p>
+        <p><a href="https://www.honda.co.id" target="_blank">Kunjungi Honda Indonesia</a></p>
+    </footer>
+
+</body>
+</html>
+
+</ahtml>

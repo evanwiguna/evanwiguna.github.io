@@ -1,0 +1,205 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Produk - Central Sakti Motor</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+    
+            /* Header */
+            header {
+                background-color: #333;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+            }
+    
+            header h1 {
+                margin: 0;
+                font-size: 36px;
+            }
+    
+            header p {
+                font-size: 18px;
+                margin-top: 5px;
+            }
+    
+            /* Navigation */
+            nav {
+                background-color: #444;
+                overflow: hidden;
+            }
+    
+            nav a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+    
+            nav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+    
+            /* Product Grid */
+            .product-grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin: 40px 20px;
+            }
+    
+            .product-card {
+                background-color: white;
+                width: 30%;
+                margin: 10px 0;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                text-align: center;
+                padding: 20px;
+                transition: transform 0.3s ease;
+            }
+    
+            .product-card:hover {
+                transform: scale(1.05);
+            }
+    
+            .product-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+    
+            .product-card h3 {
+                font-size: 22px;
+                margin: 10px 0;
+            }
+    
+            .product-card p {
+                font-size: 16px;
+                color: #555;
+            }
+    
+            .product-card .price {
+                font-size: 18px;
+                font-weight: bold;
+                color: #e74c3c;
+                margin: 15px 0;
+            }
+    
+            .product-card .btn {
+                background-color: #3498db;
+                color: white;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+                font-size: 16px;
+                margin-top: 10px;
+                display: inline-block;
+            }
+    
+            .product-card .btn:hover {
+                background-color: #2980b9;
+            }
+    
+            /* Footer */
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 20px 0;
+                margin-top: 40px;
+            }
+    
+        </style>
+    </head>
+    <body>
+    
+        <!-- Header Section -->
+        <header>
+            <h1>Central Sakti Motor</h1>
+            <p>Trusted Honda Dealer Solo - Pilihan Terbaik untuk Motor Honda Anda</p>
+        </header>
+    
+        <!-- Navigation Section -->
+        <nav>
+            <a href="tampilanutama.html">Home</a>
+            <a href="produk.html">Produk</a>
+            <a href="tentangkami.html">Tentang Kami</a>
+            <a href="kontakkami.html">Kontak</a>
+            <a href="evantdanpromosi.html">Event & Promosi</a>
+        </nav>
+    
+        <!-- Product Grid Section -->
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image.html/cbr hd.jpeg" alt="Motor Sport Honda">
+                <h3>Motor Sport Honda CBR 150R</h3>
+                <p>Motor sport terbaru dari Honda dengan performa luar biasa dan desain sporty.</p>
+                <p class="price">Rp 35.000.000</p>
+                <a href="lihatdetialcbr150R.html" class="btn">Lihat Detail</a>
+            </div>
+    
+            <div class="product-card">
+                <img src="image.html/vario hd.jpeg" alt="Motor Matic Honda">
+                <h3>Motor Matic Honda Vario 125</h3>
+                <p>Motor matic Honda dengan kenyamanan maksimal untuk berkendara sehari-hari.</p>
+                <p class="price">Rp 22.000.000</p>
+                <a href="motormatic.html" class="btn">Lihat Detail</a>
+            </div>
+    
+            <div class="product-card">
+                <img src="image.html/cruisier hd.jpeg" alt="Motor Cruiser Honda">
+                <h3>Motor Cruiser Honda Rebel 500</h3>
+                <p>Motor cruiser dengan desain elegan dan nyaman untuk perjalanan jauh.</p>
+                <p class="price">Rp 120.000.000</p>
+                <a href="motorcrusier.html" class="btn">Lihat Detail</a>
+            </div>
+    
+            <div class="product-card">
+                <img src="image.html/cb 150 hd.jpeg" alt="Honda CB150R">
+                <h3>Honda CB150R</h3>
+                <p>Motor naked sport Honda dengan teknologi terbaru dan desain maskulin.</p>
+                <p class="price">Rp 30.000.000</p>
+                <a href="cb150r.html" class="btn">Lihat Detail</a>
+            </div>
+    
+            <div class="product-card">
+                <img src="image.html/beat merah.jpeg" alt="Honda Beat">
+                <h3>Honda Beat</h3>
+                <p>Motor matic Honda dengan desain kompak dan irit bahan bakar, cocok untuk pemakaian harian.</p>
+                <p class="price">Rp 17.000.000</p>
+                <a href="beat.html" class="btn">Lihat Detail</a>
+            </div>
+    
+            <div class="product-card">
+                <img src="image.html/adv.jpeg" alt="Honda ADV 150">
+                <h3>Honda ADV 150</h3>
+                <p>Motor adventure Honda dengan kenyamanan maksimal dan performa tangguh di berbagai medan.</p>
+                <p class="price">Rp 40.000.000</p>
+                <a href="adv.html" class="btn">Lihat Detail</a>
+            </div>
+        </div>
+    
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2025 Central Sakti Motor. Dealer Resmi Honda Solo. Semua Hak Cipta Dilindungi.</p>
+        </footer>
+    
+    </body>
+    </html>
+    
+</html>

@@ -1,0 +1,232 @@
+<html>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event & Promosi - Central Sakti Motor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 40px;
+        }
+
+        /* Event Section */
+        .event-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .event-card {
+            background-color: white;
+            width: 30%;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .event-card:hover {
+            transform: scale(1.05);
+        }
+
+        .event-image img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .event-info {
+            padding: 20px;
+        }
+
+        .event-info h3 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .event-info p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .event-info .btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .event-info .btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* Promotion Section */
+        .promotion-section {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 10px;
+        }
+
+        .promotion-section h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .promotion-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .promotion-section .btn-promo {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .promotion-section .btn-promo:hover {
+            background-color: #2980b9;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Central Sakti Motor</h1>
+        <p>Temukan Event dan Promosi Terbaru Kami</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="tampilanutama.html">Home</a>
+        <a href="produk.html">Produk</a>
+        <a href="tentangkami.html">Tentang Kami</a>
+        <a href="kontakkami.html">Kontak</a>
+        <a href="evantdanpromosi.html">Event & Promosi</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+
+        <!-- Event Section -->
+        <div class="event-section">
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="image.html/promo.jpeg" alt="Event 1">
+                </div>
+                <div class="event-info">
+                    <h3>Promo Diskon Motor Baru</h3>
+                    <p>Dapatkan diskon besar untuk pembelian motor baru bulan ini! Buruan, stok terbatas!</p>
+                    <a href="diskon10persen.html" class="btn">Lihat Detail</a>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="image.html/helm.jpeg" alt="Event 2">
+                </div>
+                <div class="event-info">
+                    <h3>Hadiah Langsung Untuk Pembelian Motor</h3>
+                    <p>Setiap pembelian motor bulan ini akan mendapatkan hadiah langsung menarik!</p>
+                    <a href="hadiahlansung.html" class="btn">Lihat Detail</a>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="image.html/saftyride.jpeg" alt="Event 3">
+                </div>
+                <div class="event-info">
+                    <h3>Event Lomba Berkendara</h3>
+                    <p>Ayo ikuti lomba berkendara dan dapatkan hadiah menarik! Daftarkan diri Anda sekarang!</p>
+                    <a href="lombdadanberkendara.html" class="btn">Lihat Detail</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Promotion Section -->
+        <div class="promotion-section">
+            <h2>Promo Spesial Bulan Ini!</h2>
+            <p>Dapatkan penawaran terbaik dengan berbagai promosi spesial yang hanya berlaku bulan ini. Jangan sampai ketinggalan!</p>
+            <a href="promo.html" class="btn-promo">Lihat Semua Promosi</a>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Central Sakti Motor. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
+
+</html>
